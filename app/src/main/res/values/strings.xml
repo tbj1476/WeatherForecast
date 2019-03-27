@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+
+    <string name="apixu_api_key">433b0eec97cd4c63847112324191903</string>
+    <string name="api_url">http://api.apixu.com/v1</string>
+    <string name="lbl_network_unavailable">Network unavailable</string>
+    <string name="error_msg">Something went wrong at our end!</string>
+    <string name="retry_label">Retry</string>
+
+</resources>

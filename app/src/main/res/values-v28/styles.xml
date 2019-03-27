@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="temp_main">
+        <item name="android:textColor">#2A2A2A</item>
+        <item name="android:opacity">opaque</item>
+        <item name="android:textSize">96sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Black</item>
+        <item name="android:lineHeight">112sp</item>
+    </style>
+</resources>
