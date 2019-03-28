@@ -44,15 +44,16 @@
             android:id="@+id/current_lay"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.9"
+            android:layout_weight="1"
             android:layout_gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#F5F6F7">
 
             <TextView
                 android:gravity="center"
                 android:id="@+id/temp"
                 android:text="20 C"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="56dp"
                 android:layout_width="match_parent"
                 style="@style/temp_main"
                 android:layout_height="wrap_content" />
@@ -62,7 +63,7 @@
                 android:text="Bangalore"
                 style="@style/city_main"
                 android:gravity="center"
-                android:layout_marginBottom="31dp"
+                android:layout_marginBottom="62dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -75,7 +76,7 @@
             android:id="@+id/forecast_lay"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.1"
+            android:layout_weight="1"
             android:paddingTop="16dp">
 
             <ListView
